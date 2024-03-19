@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "adamwarrenpro";
+  src: url("/Fonts/adamwarrenpro.ttf") format("truetype"); /* Change the URL to the path of your font file */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+p,
+pre,
+h1,
+h2 {
+  font-family: "adamwarrenpro", sans-serif; /* Set the font-family to a cartoonish font */
+  letter-spacing: 2px; /* Adjust the letter spacing as needed */
+  font-weight: bold; /* Increase the font weight for emphasis */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; /* Add a border effect */
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 80px;
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed; /* Stick the navbar to the top */
+  top: 0; /* Position it at the top of the viewport */
+  width: 100%; /* Make it full width */
+  height: 65px;
+  max-width: 100vw; /* Set maximum width to viewport width */
+  background-color: rgb(8, 74, 255); /* Set the background color */
+  z-index: 1000; /* Ensure it's on top of other content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
+  padding: 10px 20px; /* Add padding to the navbar */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  opacity: 100%;
+  margin: 0px;
+  transition: opacity 0.3s; /* Add transition effect for opacity */
+}
+
+.navbar:hover {
+  opacity: 100%; /* Set opacity to 100% on hover */
+}
+
+.navbar img {
+  width: 170px; /* Adjust the size of the icon image */
+  height: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; /* Align text to the right */
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 5px 10px; /* Add padding to the buttons */
+  position: relative; /* Position relative for pseudo-element */
+}
+
+.navbar ul li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255); /* Change to your desired color */
+  transition: width 0.3s ease; /* Add a transition for width */
+}
+
+.navbar ul li:first-child {
+  margin-left: 0;
+}
+
+.navbar ul li a {
+  color: rgb(255, 255, 255); /* Set the text color */
+  text-decoration: none;
+  font-family: "adamwarrenpro", sans-serif; /* Set the font-family to a cartoonish font */
+  letter-spacing: 2px; /* Adjust the letter spacing as needed */
+  font-weight: bold; /* Increase the font weight for emphasis */
+  font-size: 20px;
+  transition: color 0.3s; /* Add transition effect for color change */
+}
+
+.navbar ul li:hover::after {
+  width: 100%; /* Expand the underline to full width */
+}
+
+.navbar ul li a:hover {
+  color: #fff; /* Change text color to white on hover */
+}
+
+.div1 {
+  position: static;
+  margin-top: 85px;
+  width: auto;
+  height: 850px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
+  z-index: 0;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  padding-right: 100px;
+}
+
+.div1-text-container {
+  margin-top: 100px;
+  float: left; /* Float left to allow other content to wrap around */
+  width: 800px; /* Calculate width to leave space for the picture container and padding */
+  font-size: 25px;
+}
+
+.MR_BLOOF {
+  position: static;
+  margin-left: 200px;
+  height: 600px;
+  width: 700px;
+}
+
+.div2 {
+  background-image: url("/tokenomics-pic.jpg");
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  position: static;
+  width: auto;
+  height: 850px;
+  background-color: rgb(8, 74, 255);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
+  z-index: 0;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  padding-right: 100px;
+}
+
+.div2-title-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div3 {
+  background-image: url("/bloof-makeover.jpg");
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  position: static;
+  width: auto;
+  height: 850px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
+  z-index: 0;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  padding-right: 100px;
+}
+
+.div3-title-container {
+  color: rgb(8, 74, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div4 {
+  font-size: 25px;
+  color: white;
+  position: static;
+  width: auto;
+  height: 850px;
+  background-color: rgb(8, 74, 255);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
+  z-index: 0;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  padding-right: 100px;
+}
+
+.div4-text-container {
+  margin-top: 100px;
+  float: left; /* Float left to allow other content to wrap around */
+  width: 800px; /* Calculate width to leave space for the picture container and padding */
+  font-size: 25px;
+}
+
+.div5 {
+  position: static;
+  width: auto;
+  height: 850px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
+  z-index: 0;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  padding-right: 100px;
+}
+
+.iframe {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 600px;
+  position: static;
+  height: 600px;
+  width: 700px;
+  padding-left: 60px;
+}
+
+#roadmap {
+  display: flex;
+  flex-wrap: wrap; /* Allow the waves to wrap to the next line if needed */
+  justify-content: space-around; /* Space the waves evenly horizontally */
+  background-color: rgb(255, 255, 255);
+  padding: 20px; /* Add padding around the waves */
+}
+
+.wave {
+  border: 2px solid black;
+  height: 400px;
+  width: 300px; /* Adjust the width of each wave */
+  margin: 20px; /* Add margin around each wave */
+  padding: 20px; /* Add padding inside each wave */
+  background-color: rgb(8, 74, 255); /* Set background color for the waves */
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.wave h2 {
+  font-family: "adamwarrenpro", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.wave ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.wave ul li {
+  font-family: "adamwarrenpro", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.base-guide,
+.uniswap-container {
+  width: calc(
+    50% - 40px
+  ); /* Set the width of each div to 50% minus the margin */
+  margin: 10px; /* Add margin around each div */
+  padding: 20px; /* Add padding inside each div */
+  background-color: rgb(8, 74, 255); /* Set background color */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  display: inline-block; /* Ensure the divs are displayed inline */
+}
+
+.base-guide p,
+.uniswap-container p {
+  color: white; /* Set text color */
+  font-family: "adamwarrenpro", sans-serif; /* Set font family */
+  font-size: 20px; /* Set font size */
+  font-weight: bold; /* Set font weight */
+}
