@@ -238,6 +238,7 @@ h1 {
   padding: 20px; /* Add padding inside each wave */
   background-color: rgb(8, 74, 255); /* Set background color for the waves */
   border-radius: 10px; /* Add border radius for rounded corners */
+  opacity: 85%;
 }
 
 .wave h2 {
