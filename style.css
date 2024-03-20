@@ -1,6 +1,6 @@
 @font-face {
   font-family: "adamwarrenpro";
-  src: url("/Fonts/adamwarrenpro.ttf") format("truetype"); /* Change the URL to the path of your font file */
+  src: url("Fonts/adamwarrenpro.ttf") format("truetype"); /* Change the URL to the path of your font file */
 }
 
 html {
@@ -131,7 +131,7 @@ h1 {
 }
 
 .div2 {
-  background-image: url("/tokenomics-pic.jpg");
+  background-image: url("tokenomics-pic.jpg");
   background-size: cover; /* Adjust background size as needed */
   background-position: center; /* Center the background image */
   position: static;
@@ -154,7 +154,7 @@ h1 {
 }
 
 .div3 {
-  background-image: url("/bloof-makeover.jpg");
+  background-image: url("bloof-makeover.jpg");
   background-size: cover; /* Adjust background size as needed */
   background-position: center; /* Center the background image */
   position: static;
