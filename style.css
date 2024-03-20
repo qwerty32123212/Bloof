@@ -1,6 +1,6 @@
 @font-face {
   font-family: "adamwarrenpro";
-  src: url("Fonts/adamwarrenpro.ttf") format("truetype"); /* Change the URL to the path of your font file */
+  src: url("adamwarrenpro.ttf") format("truetype"); /* Change the URL to the path of your font file */
 }
 
 html {
