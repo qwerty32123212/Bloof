@@ -129,19 +129,6 @@ h1 {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .MR_BLOOF {
-    display: none;
-  }
-}
-
-.MR_BLOOF {
-  position: static;
-  margin-left: 200px;
-  height: 600px;
-  width: 700px;
-}
-
 .div2 {
   background-image: url("tokenomics-pic.jpg");
   background-size: cover; /* Adjust background size as needed */
@@ -457,6 +444,10 @@ h1 {
   margin-top: -20px;
 }
 
+@media screen and (max-width: 1670px){
+  
+}
+
 @media screen and (max-width: 414px) {
   h1 {
     font-size: 6vh; /* Adjusted font size for iPhone width */
@@ -705,5 +696,19 @@ h1 {
   .contract-text{
     margin-top: -100px;
     margin-left: 1280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MR_BLOOF {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .MR_BLOOF {
+    margin-left: 180px;
+    height: 600px;
+    width: 650px;
   }
 }
