@@ -106,7 +106,7 @@ h1 {
   position: static;
   margin-top: 85px;
   width: auto;
-  height: 850px;
+  height: fit-content;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
   z-index: 0;
@@ -576,7 +576,7 @@ h1 {
   }
 
   .div1{
-    height: fit-content;
+    height: 850px;
   }
 
   .div2{
