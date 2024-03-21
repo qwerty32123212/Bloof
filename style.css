@@ -165,6 +165,59 @@ h1 {
   justify-content: center;
 }
 
+.lp-burned-class {
+  width: 390px;
+}
+
+.div2-CA-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tax-class {
+  width: 500px;
+  height: 380px;
+  margin-left: -500px;
+  margin-top: 0;
+}
+
+.div2-supply-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div2-circulation-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.lp-text {
+  color: white;
+  font-size: 25px;
+  margin-left: 140px;
+}
+.tax-text,
+.contract-text {
+  color: white;
+  font-size: 25px;
+}
+
+.token-class {
+  width: 580px; 
+  height: 380px; 
+  margin-left: 70px
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .div3 {
   background-image: url("bloof-makeover.jpg");
   background-size: cover; /* Adjust background size as needed */
@@ -203,6 +256,13 @@ h1 {
   padding-right: 100px;
 }
 
+.div4-title-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .div4-text-container {
   margin-top: 100px;
   float: left; /* Float left to allow other content to wrap around */
@@ -223,10 +283,41 @@ h1 {
   padding-right: 100px;
 }
 
-.iframe {
+.iframe1 {
+  width: 100%;
+  margin-left: -70px;
+  margin-top: 20px;
+  border-radius: 20px;
   border: none;
   display: block;
+  height: 600px;
+  position: static;
+  height: 600px;
+  width: 700px;
+  padding-left: 60px;
+}
+
+.iframe2 {
   width: 100%;
+  margin-left: -70px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  display: block;
+  height: 600px;
+  position: static;
+  height: 600px;
+  width: 700px;
+  padding-left: 60px;
+}
+
+.iframe3 {
+  width: 100%;
+  margin-left: -70px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  display: block;
   height: 600px;
   position: static;
   height: 600px;
@@ -244,7 +335,7 @@ h1 {
 
 .wave {
   border: 2px solid black;
-  height: 400px;
+  height: 300px;
   width: 300px; /* Adjust the width of each wave */
   margin: 20px; /* Add margin around each wave */
   padding: 20px; /* Add padding inside each wave */
@@ -271,10 +362,8 @@ h1 {
 }
 
 .base-guide,
-.uniswap-container {
-  width: calc(
-    50% - 40px
-  ); /* Set the width of each div to 50% minus the margin */
+.bridge-container {
+  width: 820px; /* Set the width of each div to 50% minus the margin */
   margin: 10px; /* Add margin around each div */
   padding: 20px; /* Add padding inside each div */
   background-color: rgb(8, 74, 255); /* Set background color */
@@ -284,7 +373,7 @@ h1 {
 }
 
 .base-guide p,
-.uniswap-container p {
+.bridge-container p {
   color: white; /* Set text color */
   font-family: "adamwarrenpro", sans-serif; /* Set font family */
   font-size: 20px; /* Set font size */
@@ -326,6 +415,27 @@ h1 {
   display: none;
 }
 
+.two-to-token{
+  color: white;
+  font-size: 20px;
+  margin-left: 480px;
+  margin-top: -20px;
+}
+
+.two-to-buyback{
+  color: white;
+  font-size: 20px;
+  margin-left: 480px;
+  margin-top: -20px;
+}
+
+.marketing-text{
+  color: white;
+  font-size: 20px;
+  margin-left: 480px;
+  margin-top: -20px;
+}
+
 @media screen and (max-width: 414px) {
   h1 {
     font-size: 6vh; /* Adjusted font size for iPhone width */
@@ -336,6 +446,10 @@ h1 {
   p {
     width: 80vw;
     margin-left: -11vw;
+  }
+
+  .dropbtn {
+    display: block;
   }
 
   .navbar ul li {
@@ -360,10 +474,181 @@ h1 {
   .navbar ul li.dropdown:hover .dropdown-content {
     display: block; /* Display dropdown content on hover */
   }
+
+  .div2-title-container {
+    margin-top: 10vh;
+    margin-bottom: -8vh;
+  }
+
+  .div2-CA-container {
+    margin-left: 1vw;
+  }
+
+  .div2-supply-container {
+    margin-left: 5vw;
+  }
+
+  .div2-circulation-container {
+    margin-left: -3vw;
+  }
+
+  .lp-burned-class {
+    margin-left: -22vw;
+  }
+
+  .lp-text {
+    color: white;
+    font-size: 25px;
+    margin-left: 13vw;
+  }
+
+  .tax-class {
+    width: 90vw;
+    height: 380px;
+    margin-left: -25vw;
+  }
+
+  .tax-text {
+    margin-left: 17vw;
+  }
+
+  .div2 {
+    height: 195vh;
+    background-image: none;
+  }
+
+  .token-class {
+    width: 110vw;
+    margin-left: -23vw;
+  }
+
+  .contract-text {
+    margin-left: -7vw;
+  }
+
+  .two-to-token{
+    color: white;
+    font-size: 20px;
+    width: 100vw;
+    margin-left: -9vw;
+    margin-top: 0vh;
+  }
+
+  .two-to-buyback{
+    color: white;
+    font-size: 20px;
+    width: 100vw;
+    margin-left: -15vw;
+    margin-top: 0vh;
+  }
+
+  .marketing-text{
+    color: white;
+    font-size: 20px;
+    width: 100vw;
+    margin-left: -2vw;
+    margin-top: 0vh;
+  }
+
+  .div3{
+    background-image: none;
+  }
+
+  .div3{
+    height: fit-content;
+  }
+
+  .div3-title-container{
+    margin-top: 18vh;
+  }
+  
+  .div4{
+    height: fit-content;
+  }
+
+  .div4-title-container{
+    margin-top: 15vh;
+    margin-left: -15vw;
+    margin-bottom: -7vh;
+    width: 80vw;
+  }
+
+  .div4-title{
+    font-size: 2.62vh;
+  }
+  
+  .div4{
+    height: 200vh;
+  }
+
+.base-guide{
+  margin-left: -6vh;
+}
+
+.iframe1{
+  margin-left: -30vw;
+  width: 410px;
+  height: 700px;
+}
+
+.bridge-container{
+  margin-left: -6vh;
+}
+
+.iframe2{
+  margin-left: -30vw;
+  width: 410px;
+  height: 750px;
+}
+
 }
 
 @media screen and (min-width: 415px) {
   .dropdown {
     display: none;
+  }
+
+  .dropbtn {
+    display: none;
+  }
+
+  .tax-class {
+    width: 500px;
+    height: 380px;
+    margin-left: 150px;
+    margin-top: -900px;
+  }
+
+  .token-class {
+    width: 580px; 
+    height: 380px; 
+    margin-left: 1100px;
+    margin-top: -1100px;
+  }
+
+  .lp-text{
+    margin-top: 0px;
+  }
+
+  .tax-text{
+    margin-top: -50px;
+    margin-left: 800px;
+  }
+
+  .two-to-token{
+    margin-left: 680px;
+  }
+
+  .two-to-buyback{
+    margin-left: 640px;
+  }
+
+  .marketing-text{
+    margin-left: 710px;
+  }
+
+  .contract-text{
+    margin-top: -100px;
+    margin-left: 1280px;
   }
 }
