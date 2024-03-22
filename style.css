@@ -106,7 +106,7 @@ h1 {
   position: static;
   margin-top: 85px;
   width: auto;
-  height: fit-content;
+  height: 700px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the navbar */
   z-index: 0;
@@ -262,6 +262,11 @@ h1 {
   padding-left: 100px;
   padding-bottom: 70px;
   padding-right: 100px;
+}
+
+.buybtn{
+  background-color: rgb(55, 108, 255);
+  border-radius: 10px;
 }
 
 .div4-title-container {
@@ -563,7 +568,7 @@ h1 {
   }
 
   .div1{
-    height: 900px;
+    height: 1000px;
   }
 
   .div2{
